@@ -9,6 +9,7 @@ import java.sql.Statement;
 
 public class ClientesRepository {
     final DbManager database;
+    
     public ClientesRepository(){
         database=new DbManager("jdbc:postgresql://localhost:5432/test_db","postgres","letmein");
     }
