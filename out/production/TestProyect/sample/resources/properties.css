@@ -1,0 +1,19 @@
+* {
+-fx-primary:#337ab7;
+-fx-secondary:#B0E0F3;
+-fx-accent:#E9EB5F;
+-fx-primarytext:#FFFFFF;
+-fx-secondarytext:#000000;
+}
+
+.root{
+ -fx-background-color: -fx-secondary;
+}
+
+ .text-field
+ {
+     -fx-text-fill: -fx-primary;
+     -fx-font-size: 12pt;
+     -jfx-focus-color: -fx-accent;
+     -jfx-unfocus-color: -fx-accent;
+ }
